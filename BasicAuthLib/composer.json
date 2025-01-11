@@ -1,0 +1,17 @@
+{
+  "name": "ahmed-alraii/basic-auth-lib",
+  "description": "test for adapter",
+  "type": "library",
+  "authors": [
+    {
+      "name": "ahmed-alraii",
+      "email": "alameer8377@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "BasicAuth\\": "BasicAuth/"
+    }
+  }
+}

@@ -4,8 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f6a6a8c9b2fa96a6f6430a053c2f7cd",
-    "packages": [],
+    "content-hash": "2e0e8de9410eeb39e7511d664c334f27",
+    "packages": [
+        {
+            "name": "ahmed-alraii/basic-auth-lib",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "BasicAuthLib",
+                "reference": "a0e2f97ca66277d66bd3120256708542a74d3803"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicAuth\\": "BasicAuth/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "ahmed-alraii",
+                    "email": "alameer8377@gmail.com"
+                }
+            ],
+            "description": "test for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "ahmed-alraii/token-auth-lib",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "TokenAuthLib",
+                "reference": "f810672d082157e16d75dccf32ecfb3586ddf70b"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TokenAuth\\": "TokenAuth/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "ahmed-alraii",
+                    "email": "alameer8377@gmail.com"
+                }
+            ],
+            "description": "test for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
     "packages-dev": [
         {
             "name": "myclabs/deep-copy",
@@ -1695,10 +1746,13 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "ahmed-alraii/basic-auth-lib": 20,
+        "ahmed-alraii/token-auth-lib": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }

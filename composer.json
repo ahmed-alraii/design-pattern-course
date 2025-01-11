@@ -1,4 +1,16 @@
 {
+    "repositories": [
+        {
+            "type": "path",
+            "url": "BasicAuthLib"
+        },
+        {
+            "type": "path",
+            "url": "TokenAuthLib"
+        }
+    ],
+
+
     "require-dev": {
         "phpunit/phpunit": "^11.5"
     },
@@ -11,5 +23,9 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "require": {
+        "ahmed-alraii/basic-auth-lib": "@dev",
+        "ahmed-alraii/token-auth-lib": "@dev"
     }
 }
